@@ -171,15 +171,17 @@ body {
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   
-   * {
+* {
  
         font-family: sans-serif!important;
     }
-  
-  .homepage {
-    background: #fff;
-  }
-.fronttext h1.frontexth2 {
+
+    .homepage {
+
+        background:#fff;
+    }
+
+    .fronttext h1.frontexth2 {
         font-family: sans-serif;
         font-size: 35px;
         letter-spacing: 0px;
@@ -190,89 +192,114 @@ body {
         font-family: sans-serif;
     }
 
-  .homepage div {
-    padding: 10px;
-    width: 100%;
-  }
-  .fronttext {
-    width: 275px !important;
-    margin-top: -318px;
-  }
-  .simulators span.behind {
-    font-size: 56px;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-  }
-  h1.simulatortraining {
-    font-size: 25px;
-  }
-  .simulators span.behind2 {
-    font-size: 56px;
-    font-family: sans-serif;
-    letter-spacing: 5px;
-  }
-  h1.simulatortraining2 {
-    font-size: 25px;
-  }
-  button.contactusbtn {
-    padding: 10px;
-  }
-  img.current {
-    width: 367px;
-    height: 199px;
-  }
-  .galleryimage {
-    margin-bottom: 37px;
-  }
-  ul.gallerylist {
-    display: block;
-  }
-  ul.gallerylist li {
-    margin: 11px;
-  }
-  footer.bottom {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  ul.socialul li {
-    padding: 27px;
-  }
-  footer.footerbottom {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  .secondsection div {
-    padding: 10px;
-    -webkit-box-flex: -1;
-        -ms-flex: -1;
-            flex: -1;
-  }
-  .img.image2 {
-    display: none;
-  }
-  .img.image1 {
-    display: -webkit-box;
-  }
-  .img1 {
-    width: 82%;
-  }
-  .img4 {
-    margin-left: 0px;
-    width: 82%;
-  }
-  span.cabin2 {
-    margin-left: 111px;
-  }
-  .travel .title2 {
-    text-align: center;
-    padding: 107px;
-  }
-  button.learnmore {
-    margin: 3px;
-  }
-  button.ereg {
-    margin: 3px;
-  }
+   
+    .homepage div {
+        padding: 10px;
+        width: 100%;
+    }
+    .fronttext {
+        width: 275px!important;
+        margin-top: -318px;
+    }
+
+    .simulators span.behind {
+        font-size: 56px;
+        font-family: sans-serif;
+        letter-spacing: 5px;
+       
+    }
+
+    h1.simulatortraining {
+        font-size: 25px;}
+
+
+
+        .simulators span.behind2 {
+            font-size: 56px;
+            font-family: sans-serif;
+            letter-spacing: 5px;
+           
+        }
+    
+        h1.simulatortraining2 {
+            font-size: 25px;}
+
+            button.contactusbtn {
+    
+                padding: 10px;
+            }
+            img.current {
+                width: 367px;
+                height: 199px;
+            }
+
+            .galleryimage {
+                
+                margin-bottom: 37px;
+            }
+
+            ul.gallerylist {
+                display: block;}
+
+                ul.gallerylist li {
+                    margin: 11px;
+                }
+
+                footer.bottom {
+             
+                    flex-direction: column;}
+
+                    ul.socialul li {
+                        padding: 27px;
+                    }
+                    footer.footerbottom {
+              
+                        grid-template-columns: 1fr;}
+
+                        .secondsection div {
+                            padding: 10px;
+                    
+                            flex: -1;
+                        }
+                        .img.image2 {
+               
+                            display: none;
+                        }
+
+                        .img.image1 {
+                    
+                            display: -webkit-box;
+                        }
+                        .img1 {
+            
+                            width: 82%;
+                        }
+                        .img4 {
+                            margin-left: 0px;
+                            width: 82%;
+                        }
+                        span.cabin {
+                 
+                            font-size: 17px;
+                        
+                        }
+                        span.cabin2 {
+                            margin-left: 117px;
+                            font-size: 17px;
+                        }
+                        .travel .title2 {
+                            text-align: center;
+                            padding: 107px;
+                        }
+                        button.learnmore {
+
+                          margin:3px; 
+                        }
+                        button.ereg {
+
+                            margin:3px; 
+                          }
+
+                          .imgyear {
+                            background: url(img/calendar.png);} 
 }
