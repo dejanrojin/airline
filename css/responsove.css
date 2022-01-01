@@ -170,6 +170,12 @@ body {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
+  
+   * {
+ 
+        font-family: sans-serif!important;
+    }
+  
   .homepage {
     background: #fff;
   }
