@@ -300,6 +300,8 @@ body {
                             margin:3px; 
                           }
 
-                          .imgyear {
-                            background: url(img/calendar.png);} 
+                      .achivement {
+                        
+                            display: flex!important;
+                        }
 }
