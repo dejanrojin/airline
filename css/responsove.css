@@ -233,10 +233,12 @@ body {
     display: -ms-flexbox !important;
     display: flex !important;
   }
+  
   .burgermenu {
     opacity: 1;
-    right: 62px;
-  }
+    right: 13px;
+    top: 9px;
+}
   .burger1 {
     background: #ce171e;
     height: 4px;
