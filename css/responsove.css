@@ -300,7 +300,11 @@ body {
 
                                .contactform span.behindcontactform {
                             letter-spacing: 5px;
-                                    font-size: 56px;}  
+                           font-family: sans-serif!important;                               
+                              font-size: 56px;
+  
+  } 
+  
                                 .contacformbuttons {
                                    
                                         width: 100%;}
