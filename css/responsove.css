@@ -340,6 +340,11 @@ body {
       font-family: 'Font Awesome 5 Pro'!important;
 } 
   
+.training span.behindtraining {
+    font-size: 56px;
+  letter-spacing: 5px;}  
+  
+  
   
 }
 
