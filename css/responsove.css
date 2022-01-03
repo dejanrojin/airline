@@ -357,6 +357,9 @@ body {
    .trainigimg2 {
      display: none;}
   
+ p.world {
+   font-size: 18px;} 
+  
 }
 
 @media screen and (max-width: 360px) {
