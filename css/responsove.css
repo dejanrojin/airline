@@ -385,6 +385,23 @@ body {
   }
   
   
+ .contacformbuttons {
+    padding: 31px;
+   flex-direction: column;
+  } 
+  
+ input.name {
+   width: 320px;}
+  
+ input.surname {
+   width: 320px;
+       margin-top: 20px;
+  } 
+  
+textarea.message {
+   width: 320px;
+  } 
+  
 }
 
 @media screen and (max-width: 360px) {
