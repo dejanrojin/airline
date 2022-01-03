@@ -401,6 +401,13 @@ body {
 textarea.message {
    width: 320px;
   } 
+ 
+button.submit {
+    width: 157px;
+    padding: 17px;
+  margin-top: 20px;
+  }  
+  
   
 }
 
