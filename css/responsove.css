@@ -379,6 +379,12 @@ body {
    letter-spacing: 5px;} 
   
   
+  
+ table {
+   font-size: 11px; 
+  }
+  
+  
 }
 
 @media screen and (max-width: 360px) {
