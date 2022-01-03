@@ -448,56 +448,321 @@ input.datedeparture {
 }
 
 @media screen and (max-width: 360px) {
-  .homepage {
-    background: url(/img/airplane.png) center top;
-  }
-  .simulators span.behind {
+   
+    * {
+ 
+        font-family: sans-serif!important;
+    }
+
+    .homepage {
+
+        background:#fff;
+    }
+
+    .fronttext h1.frontexth2 {
+        font-family: sans-serif;
+        font-size: 35px;
+        letter-spacing: 0px;
+    }
+
+    .fronttext h1.frontexth2 span.takeof {
+        font-size: 35px;
+        font-family: sans-serif;
+    }
+
+   
+    .homepage div {
+        padding: 10px;
+        width: 100%;
+    }
+    .fronttext {
+        width: 275px!important;
+        margin-top: -318px;
+    }
+
+    .simulators span.behind {
+        font-size: 56px;
+        font-family: sans-serif;
+        letter-spacing: 5px;
+       
+    }
+
+    h1.simulatortraining {
+        font-size: 25px;}
+
+
+
+        .simulators span.behind2 {
+            font-size: 56px;
+            font-family: sans-serif;
+            letter-spacing: 5px;
+           
+        }
+    
+        h1.simulatortraining2 {
+            font-size: 25px;}
+
+            button.contactusbtn {
+    
+                padding: 10px;
+            }
+            img.current {
+                width: 367px;
+                height: 199px;
+            }
+
+            .galleryimage {
+                
+                margin-bottom: 37px;
+            }
+
+            ul.gallerylist {
+                display: block;}
+
+                ul.gallerylist li {
+                    margin: 11px;
+                }
+
+                footer.bottom {
+             
+                    flex-direction: column;}
+
+                    ul.socialul li {
+                        padding: 27px;
+                    }
+                    footer.footerbottom {
+              
+                        grid-template-columns: 1fr;}
+
+                        .secondsection div {
+                            padding: 10px;
+                    
+                            flex: -1;
+                        }
+                        .img.image2 {
+               
+                            display: none;
+                        }
+
+                        .img.image1 {
+                    
+                            display: -webkit-box;
+                        }
+                        .img1 {
+            
+                            width: 82%;
+                        }
+                        .img4 {
+                            margin-left: 0px;
+                            width: 82%;
+                        }
+                        span.cabin {
+                 
+                            font-size: 17px;
+                        
+                        }
+                        span.cabin2 {
+                            margin-left: 117px;
+                            font-size: 17px;
+                        }
+                        .travel .title2 {
+                            text-align: center;
+                            padding: 107px;
+                        }
+                        button.learnmore {
+
+                          margin:3px; 
+                        }
+                        button.ereg {
+
+                            margin:3px; 
+                          }
+
+                          .achivement {
+                        
+                            display: flex!important;
+                        }
+
+                        .burgermenu {
+                            opacity: 1;
+                            right: 62px;}
+
+
+                            .burger1 {
+                                background: #ce171e;
+                                height: 4px;
+                                width: 30px;
+                            }
+                            .burger2 {
+                                background: #ce171e;
+                                height: 4px;
+                                width: 30px;
+                            }
+                            .burger3 {
+                                background: #ce171e;
+                                height: 4px;
+                                width: 30px;
+                            }
+                            .white{
+                                background: #fff!important;
+                                
+                                            }
+
+                            header ul.menu {
+                         
+                             top: 137px;
+                             left: 114px;}
+
+                             img.airplaneimg {
+                                display: none;}
+
+
+                                section.aboutbottom {
+                              
+                                    flex-direction: column;
+                                }
+
+                               .contactform span.behindcontactform {
+                            letter-spacing: 5px;
+                           font-family: sans-serif!important;                               
+                              font-size: 56px;
+  
+  } 
+  
+                                .contacformbuttons {
+                                   
+                                        width: 100%;}
+  
+  
+  i.fas.fa-search {
+    font-family: 'Font Awesome 5 Pro'!important;
+}
+ 
+ .secondsection {
+   margin-top: -192px;} 
+  
+ .scroll {
+   top: 87px;} 
+  
+ i.fas.fa-phone-volume {
+    font-size: 39px;
+    margin: 10px 0 0 0;
+   font-family: 'Font Awesome 5 Pro'!important;} 
+  
+ i.fas.fa-globe-europe {
+    font-size: 39px;
+    margin: 10px 0 0 0;
+      font-family: 'Font Awesome 5 Pro'!important;
+} 
+ 
+ i.fas.fa-map-marker-alt {
+    font-size: 39px;
+    margin: 10px 0 0 0;
+      font-family: 'Font Awesome 5 Pro'!important;
+} 
+  
+.training span.behindtraining {
     font-size: 56px;
-    font-family: sans-serif;
-    letter-spacing: 5px;
+  letter-spacing: 5px;}  
+  
+ .texttraining {
+   margin: -85px 6px 64px 0px;} 
+  
+ .trainingbuttons div {
+    padding: 32px;
+} 
+  
+ .trainigimg {
+   display: none;}
+   
+  .trainingbuttons {
+    grid-template-columns: 1fr;
   }
-  h1.simulatortraining {
-    font-size: 25px;
-  }
-  .simulators span.behind2 {
+  
+  
+   .trainigimg2 {
+     display: none;}
+  
+ p.world {
+   font-size: 18px;
+  color: #fff;} 
+ 
+ i.far.fa-envelope-open {
+    font-family: 'Font Awesome 5 Pro'!important;
+}
+  
+ i.fas.fa-phone-square-alt {
+    font-family: 'Font Awesome 5 Pro'!important;
+}
+ 
+  
+ .schedule span.behindschedule {
     font-size: 56px;
-    font-family: sans-serif;
-    letter-spacing: 5px;
+   letter-spacing: 5px;} 
+  
+  
+  
+ table {
+   font-size: 6.4px; 
   }
-  h1.simulatortraining2 {
-    font-size: 25px;
-  }
-  button.contactusbtn {
-    padding: 10px;
-  }
-  img.current {
-    width: 367px;
-    height: 199px;
-  }
-  .galleryimage {
-    margin-bottom: 37px;
-  }
-  ul.gallerylist {
-    display: block;
-  }
-  ul.gallerylist li {
-    margin: 11px;
-  }
-  footer.bottom {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  ul.socialul li {
-    padding: 27px;
-  }
-  footer.footerbottom {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-  }
-  .burgermenu {
-    opacity: 1;
-    right: 58px;
-  }
+  
+  
+ .contacformbuttons {
+    padding: 31px;
+   flex-direction: column;
+  } 
+  
+ input.name {
+   width: 320px;}
+  
+ input.surname {
+   width: 320px;
+       margin-top: 20px;
+  } 
+  
+textarea.message {
+   width: 320px;
+  } 
+ 
+button.submit {
+    width: 157px;
+    padding: 17px;
+  margin-top: 20px;
+  }  
+  
+ 
+ select {
+   width: 320px;
+  } 
+
+  
+ .booking {
+padding: 0px;
+    flex-direction: column;
+  } 
+  
+ .imgdestination {
+   display: none;
+  } 
+  
+ form.bookform input {
+    width: 281px;
+}
+  
+ p.cardstext {
+    border-top: 2px solid #ffffff;
+    margin: 19px;
+}
+ 
+  
+input.datedeparture {
+    width: 100%;
+    background: #ce171e;
+    color: #fff;
+    border: 0px;
+    border-radius: 30px;
+    padding: 17px;
+    font-weight: 800;
+  margin-right: 4px;
+  }  
 }
