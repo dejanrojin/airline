@@ -347,6 +347,16 @@ body {
  .texttraining {
    margin: -85px 0 64px 0px;} 
   
+ .trainingbuttons div {
+    padding: 32px;
+} 
+  
+ .trainigimg {
+   display: none;}
+   
+   .trainigimg2 {
+     display: none;}
+  
 }
 
 @media screen and (max-width: 360px) {
