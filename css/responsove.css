@@ -367,6 +367,11 @@ body {
  i.fas.fa-phone-square-alt {
     font-family: 'Font Awesome 5 Pro'!important;
 }
+ 
+  
+ .schedule span.behindschedule {
+    font-size: 56px;
+   letter-spacing: 5px;} 
   
   
 }
