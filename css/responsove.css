@@ -412,7 +412,25 @@ button.submit {
  select {
    width: 320px;
   } 
+
   
+ .booking {
+padding: 0px;
+    flex-direction: column;
+  } 
+  
+ .imgdestination {
+   display: none;
+  } 
+  
+ form.bookform input {
+    width: 281px;
+}
+  
+ p.cardstext {
+    border-top: 2px solid #ffffff;
+    margin: 19px;
+}
   
 }
 
