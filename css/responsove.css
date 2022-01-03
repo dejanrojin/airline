@@ -324,9 +324,21 @@ body {
    top: 87px;} 
   
  i.fas.fa-phone-volume {
-    font-size: 47px;
+    font-size: 39px;
     margin: 10px 0 0 0;
    font-family: 'Font Awesome 5 Pro'!important;} 
+  
+ i.fas.fa-globe-europe {
+    font-size: 39px;
+    margin: 10px 0 0 0;
+      font-family: 'Font Awesome 5 Pro'!important;
+} 
+ 
+ i.fas.fa-map-marker-alt {
+    font-size: 39px;
+    margin: 10px 0 0 0;
+      font-family: 'Font Awesome 5 Pro'!important;
+} 
   
   
 }
