@@ -354,6 +354,11 @@ body {
  .trainigimg {
    display: none;}
    
+  .trainingbuttons {
+    grid-template-columns: 1fr;
+  }
+  
+  
    .trainigimg2 {
      display: none;}
   
