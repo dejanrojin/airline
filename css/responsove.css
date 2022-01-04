@@ -429,17 +429,40 @@ padding: 0px;
     margin: 19px;
 }
  
-  
-input.datedeparture {
-    width: 100%;
+input[type=date]{
+
+    width: 100%;;
     background: #ce171e;
     color: #fff;
     border: 0px;
     border-radius: 30px;
     padding: 17px;
     font-weight: 800;
-  margin-right: 4px;
-  }  
+    margin-right: 4px;
+
+}
+
+/*input.datedeparture {
+    width: 100%;;
+    background: #ce171e;
+    color: #fff;
+    border: 0px;
+    border-radius: 30px;
+    padding: 17px;
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+input.datearrived {
+    width:  100%;
+    background: #ce171e;
+    color: #fff;
+    border: 0px;
+    border-radius: 30px;
+    padding: 17px;
+    font-weight: 800;
+    margin-right: 4px;
+}*/
   
 }
 
