@@ -412,6 +412,7 @@ button.submit {
 
   
  .booking {
+   margin-top: -146px;
 padding: 0px;
     flex-direction: column;
   } 
