@@ -930,7 +930,7 @@ input.to {
   margin-right: 4px;
 }
 
-/*input[type=date]{
+input[type=date]{
 
     width: 100%;;
     background: #ce171e;
@@ -943,7 +943,7 @@ input.to {
 
 }
 
-input.datedeparture {
+/*input.datedeparture {
     width: 100%;;
     background: #ce171e;
     color: #fff;
