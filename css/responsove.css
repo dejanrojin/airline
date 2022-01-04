@@ -160,9 +160,8 @@ body {
     }
 
     .simulators span.behind {
-        font-size: 56px;
-        font-family: sans-serif;
-        letter-spacing: 5px;
+   
+      display:none;
        
     }
 
@@ -172,9 +171,8 @@ body {
 
 
         .simulators span.behind2 {
-            font-size: 56px;
-            font-family: sans-serif;
-            letter-spacing: 5px;
+          
+      display:none;
            
         }
     
@@ -302,11 +300,7 @@ body {
                                 }
 
                                .contactform span.behindcontactform {
-                            letter-spacing: 5px;
-                           font-family: sans-serif!important;                               
-                              font-size: 56px;
-  
-  } 
+                        display:none; } 
   
                                 .contacformbuttons {
                                    
@@ -341,8 +335,9 @@ body {
 } 
   
 .training span.behindtraining {
-    font-size: 56px;
-  letter-spacing: 5px;}  
+  
+      display:none;
+  }  
   
  .texttraining {
    margin: -85px 6px 64px 0px;} 
@@ -376,8 +371,9 @@ body {
  
   
  .schedule span.behindschedule {
-    font-size: 56px;
-   letter-spacing: 5px;} 
+    
+      display:none;
+  } 
   
   
   
