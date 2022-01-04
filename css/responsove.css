@@ -429,7 +429,7 @@ padding: 0px;
     margin: 19px;
 }
  
-input[type=date]{
+/*input[type=date]{
 
     width: 100%;;
     background: #ce171e;
@@ -442,7 +442,7 @@ input[type=date]{
 
 }
 
-/*input.datedeparture {
+input.datedeparture {
     width: 100%;;
     background: #ce171e;
     color: #fff;
