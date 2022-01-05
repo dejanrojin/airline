@@ -5,6 +5,9 @@
           box-sizing: border-box;
   scroll-behavior: smooth;
 }
+label {
+display:none;
+}
 
 body {
   margin-top: -18px !important;
