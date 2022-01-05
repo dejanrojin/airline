@@ -466,6 +466,7 @@ input.datearrived {
 }*/
  
  label {
+   display:block;
     color: #ce171e;
     font-style: italic;
     text-align: left;
