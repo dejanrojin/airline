@@ -470,7 +470,11 @@ input.datearrived {
     color: #ce171e;
     font-style: italic;
     text-align: left;
-} 
+}
+  
+  
+  header {
+    height: 106%;}
   
   
 }
