@@ -77,7 +77,8 @@ header ul.menu li.menuitem a {
   position: relative;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-areas: "f f e e" "s s s s";
+      grid-template-areas: "f f e e"
+ "s s s s";
 }
 
 .homepage div {
@@ -1043,4 +1044,32 @@ input.searchinput {
   background: #ce171e;
   color: #fff;
   padding: 1px;
+}
+
+
+.preloaderairplane {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-image: url("img/loader.gif");
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: center;
+}
+
+.preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-image: url("img/loader.gif");
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: center;
 }
