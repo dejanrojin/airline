@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="css/responsove.css"> 
+
+    <link rel="stylesheet" href="css/responsove.css">
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
     <script type="text/javascript" src="js/3deye.min.js"></script><br>
    
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="3
-            crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     
      <!-- <script type="text/javascript" src="js/ext.js"></script> -->
     <script src="/js/highlight.js"></script>
@@ -26,7 +27,7 @@
 
     <title>Aerodrom Serbia</title>
 </head>
-
+<div class="preloader"></div>
 
 <header class="headers">
 
@@ -101,7 +102,7 @@
 
 <div class="scroll">
 
-<img src="css/img/scroll.png" width="50px"></img>
+<img src="img/scroll.png" width="50px"></img>
 <p class="scrolldown">SCROLL<br> DOWN</p>
 </div>
 
@@ -127,7 +128,7 @@
     </p></div>
     <div class="btnsdiv">
     
-    <button class="allsim"><a href="destinations.html">ALL DESTINATIONS</a></button>
+    <button class="allsim"><a href="destination.html">ALL DESTINATIONS</a></button>
     </div>
     </div></div></div>
     
@@ -185,8 +186,8 @@
     
     
     <div class="galleryimage"> 
-
-        <img class="current" src="css/img/boing737.png" width="800px" height="300px"></img>
+        <div class="preloaderairplane"></div>
+        <img id="current" class="current" src="img/boing737.png" width="800px" height="300px"></img>
     
     </div>
 
@@ -233,7 +234,7 @@ Wabt to travel with us? Fly out to our exotic destination. If you want to ask mo
 
 <div class="logofooter">
 
-    <img src="css/img/footerlogo.png" width="110px" height="110px"></img>
+    <img src="img/footerlogo.png" width="110px" height="110px"></img>
 
 </div>
 
@@ -311,7 +312,7 @@ Wabt to travel with us? Fly out to our exotic destination. If you want to ask mo
     </div>
 
 <div class="imgbottom">
-    <img src="css/img/imagebottom.png">
+    <img src="img/imagebottom.png">
 </div>
 
 <div class="terms">
@@ -333,58 +334,85 @@ Wabt to travel with us? Fly out to our exotic destination. If you want to ask mo
 <script>
 
 
+
+
+$(window).load(function() {
+   $('.preloader').fadeOut(1300);
+});
+
+
+
+
+
+
+
+
+
+
+
 var current=document.querySelector(".current");
 
-var firstbtn=document.querySelector(".a340");
-var secondbtn=document.querySelector(".a320");
-var thirdbtn=document.querySelector(".a737");
-var fourbtn=document.querySelector(".a330");
-var fivebtn=document.querySelector(".a777");
 
 
-firstbtn.addEventListener("click",function(){
-    
-    current.style = "opacity:1"; 
+$('.a340').on({
+    'click': function(e){
+        e.preventDefault();
+        $("#current").fadeOut("slow", function() {
+            $('#current').attr('src', 'http://127.0.0.1:5500/img/airbus340.png');
+            $("#current").fadeIn("slow");
+        });             
+    }
+});
 
 
-current.src = "css/img/airbus340.png";
 
-
-})
-
+$('.a320').on({
+    'click': function(e){
+        e.preventDefault();
+        $("#current").fadeOut("slow", function() {
+            $('#current').attr('src', 'http://127.0.0.1:5500/img/airbus320.jpg');
+            $("#current").fadeIn("slow");
+        });             
+    }
+});
    
 
 
-
-secondbtn.addEventListener("click",function(){
-    current.style = "opacity:1";
-    current.src = "css/img/airbus320.jpg";
-
-
-})
-
-
-thirdbtn.addEventListener("click",function(){
-    current.style = "opacity:1";
-current.src = "css/img/boing737.png";
+$('.a737').on({
+    'click': function(e){
+        e.preventDefault();
+        $("#current").fadeOut("slow", function() {
+            $('#current').attr('src', 'http://127.0.0.1:5500/img/boing737.png');
+            $("#current").fadeIn("slow");
+        });             
+    }
+});
 
 
-})
+
+$('.a330').on({
+    'click': function(e){
+        e.preventDefault();
+        $("#current").fadeOut("slow", function() {
+            $('#current').attr('src', 'http://127.0.0.1:5500/img/airbus330.jpg');
+            $("#current").fadeIn("slow");
+        });             
+    }
+});
 
 
-fourbtn.addEventListener("click",function(){
-    current.style = "opacity:1";
-current.src = "css/img/airbus330.jpg";
+$('.a777').on({
+    'click': function(e){
+        e.preventDefault();
+        $("#current").fadeOut("slow", function() {
+            $('#current').attr('src', 'http://127.0.0.1:5500/img/boing777.png');
+            $("#current").fadeIn("slow");
+        });             
+    }
+});
 
 
-})
 
-fivebtn.addEventListener("click",function(){
-    current.style = "opacity:1";
-current.src = "css/img/boing777.png";
-
-
-})
 
 
 var search=document.querySelector(".search");
@@ -416,6 +444,10 @@ burger2.classList.toggle("white");
 burger3.classList.toggle("white");
 
 })
+
+
+
+
 
 
 </script>
