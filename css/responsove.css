@@ -361,6 +361,9 @@ body {
   
  p.world {
    font-size: 18px;
+  color: #fff!important;}
+  
+ p.world a{
   color: #fff!important;} 
  
  i.far.fa-envelope-open {
