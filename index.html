@@ -87,7 +87,7 @@
 </p></div>
 <div class="btnsdiv">
 
-<button class="learnmore"><a class="desc" href="destinations.html" target="_blank">DESTINATIONS</a></button>
+<button class="learnmore"><a id="desc" href="destinations.html" target="_blank">DESTINATIONS</a></button>
 <button class="ereg"><a href="book.html" target="_blank">E-BOOKING</a></button>
 </div>
 </div>
@@ -428,7 +428,7 @@ var header=document.querySelector(".headers");
 var burger1=document.querySelector(".burger1");
 var burger2=document.querySelector(".burger2");
 var burger3=document.querySelector(".burger3");
-
+var desc=document.getElementById("desc");
 
 
 burger.addEventListener("click",function(){
@@ -437,7 +437,8 @@ burger.addEventListener("click",function(){
     burger1.classList.toggle("white");
 burger2.classList.toggle("white");
 burger3.classList.toggle("white");
-
+desc.classList.toggle("hidedesc");
+    
 })
 
 
