@@ -1073,3 +1073,8 @@ input.searchinput {
   background-color: #FFF;
   background-position: center;
 }
+
+  a.bottomtel {
+    color: #fff;
+    text-decoration: none;
+}
