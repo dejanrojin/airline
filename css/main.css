@@ -1078,3 +1078,14 @@ input.searchinput {
     color: #fff;
     text-decoration: none;
 }
+
+
+a#desc{
+
+opacity:1;
+  transition:500ms ease-in;
+}
+
+.hidedesc{
+opacity:0;
+}
