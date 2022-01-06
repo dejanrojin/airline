@@ -6,6 +6,11 @@
   scroll-behavior: smooth;
 }
 
+p.world a {
+    color: #fff!important;
+    text-decoration: none;
+}
+
 body {
   margin-top: -18px !important;
 }
