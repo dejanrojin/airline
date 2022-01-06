@@ -12,3 +12,6 @@ body {
 .fab {
     font-family: "Font Awesome 5 Brands"!important;
 }
+
+p.world a {
+  color: #fff!important;}
