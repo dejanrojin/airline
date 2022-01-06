@@ -1080,7 +1080,7 @@ input.searchinput {
 }
 
 
-a#desc{
+.desc{
 
 opacity:1;
   transition:500ms ease-in;
