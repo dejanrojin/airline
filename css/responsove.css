@@ -121,6 +121,8 @@ body {
   .burgermenu div {
     margin: 3px;
   }
+  
+  
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
@@ -475,6 +477,12 @@ input.datearrived {
   
   header {
     height: 106%;}
+ 
+  
+    button.learnmore a {
+    position: relative;
+    z-index: 9;
+}
   
   
 }
