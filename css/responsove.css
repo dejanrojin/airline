@@ -361,7 +361,7 @@ body {
   
  p.world {
    font-size: 18px;
-  color: #fff;} 
+  color: #fff!important;} 
  
  i.far.fa-envelope-open {
     font-family: 'Font Awesome 5 Pro'!important;
