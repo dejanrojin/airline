@@ -515,3 +515,23 @@ input.searchinput {
   background-color: #FFF;
   background-position: center;
 }
+
+
+
+  .error {
+                opacity:0;
+                color: #ce171e;
+                font-weight: 800;
+                font-size: 14px;
+                position: absolute;
+                margin-top: -23px;
+                transition:400ms ease-in;
+                animation:mustfill 2s infinite; 
+            }
+
+            @keyframes mustfill {
+                100%{
+
+                opacity:1;                    
+                }
+            }
