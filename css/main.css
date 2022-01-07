@@ -1093,7 +1093,7 @@ opacity:0;
  #scrolltotop {
     width: 100px;
     height: 100px;
-    background: url(/img/scrolltotop.png);
+    background: url(img/scrolltotop.png);
     background-size: cover;
     position: fixed;
     bottom: 0;
