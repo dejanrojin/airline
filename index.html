@@ -316,12 +316,13 @@ Wabt to travel with us? Fly out to our exotic destination. If you want to ask mo
 </footer>
 
 
-
 <footer class="copyright">
 
 <p>&copy Turkish airline, airport center. All Rights Reserved</p>
-
+<div id="scrolltotop"></div>
 </footer>
+
+
 
  
 </body>
@@ -441,6 +442,20 @@ desc.classList.toggle("hidedesc");
     
 })
 
+ 
+var scrolltop=document.getElementById("scrolltotop");	
+$(window).scroll(function() {
+  	if($(document).scrollTop() < 460) {
+        scrolltop.style.opacity=0;
+
+		
+    }else{
+
+        scrolltop.style.opacity=1;
+
+    }
+
+  });
 
 
 
