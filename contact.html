@@ -78,9 +78,12 @@ Wabt to travel with us? Fly out to our exotic destination. If you want to ask mo
 <div class="contacformbuttons">
 
 <form>
-<input class="name" placeholder="Your name"></input> <input class="surname"placeholder="Your surname"></input>
+   <span class="error"></span>
+<input id="inputname" class="name" placeholder="Your name" ></input>
+
+<input id="inputsurname" class="surname"placeholder="Your surname"></input>
 <br>
-<textarea class="message" placeholder="Your message" ></textarea><br>
+<textarea id="messageerror" class="message" placeholder="Your message" ></textarea><br>
 
 <select>
 
@@ -238,6 +241,45 @@ burger3.classList.toggle("white");
 
 })
 
+    
+ var name=document.querySelector(".name");
+var inputname=document.getElementById("inputname");
+var inputsurname=document.getElementById("inputsurname");
+
+var messageerror=document.getElementById("messageerror");
+
+var submitbtn=document.querySelector(".submit");
+var errors=document.querySelector(".error");
+
+submitbtn.addEventListener("click",function(e){
+
+    e.preventDefault();
+
+
+
+if(inputname.value===""){
+
+errors.innerHTML="All Fields required!!!";
+
+
+}
+
+if(inputsurname.value===""){
+
+errors.innerHTML="All Fields required!!!";
+
+
+}
+if(messageerror.value===""){
+
+errors.innerHTML="All Fields required!!!";
+
+
+}
+
+})   
+    
+    
 </script>
 
 </html>
