@@ -119,9 +119,7 @@ header ul.menu li.menuitem a {
 
 .textcontactform {
   margin: -107px 0 0 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+/*display:flex;*/
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
